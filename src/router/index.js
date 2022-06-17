@@ -3,7 +3,7 @@ import VueRouter from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import EventsView from '../views/EventsView.vue'
 import EventdetailView from '../views/EventdetailView.vue'
-import KeranjangView from '../views/KeranjangView.vue'
+import disimpanView from '../views/DisimpanView.vue'
 
 Vue.use(VueRouter)
 
@@ -24,9 +24,9 @@ const routes = [
     component: EventdetailView
   },
   {
-    path: '/keranjang',
-    name: 'KeranjangView',
-    component: KeranjangView
+    path: '/disimpan',
+    name: 'disimpanView',
+    component: disimpanView
   },
   {
     path: '/about',

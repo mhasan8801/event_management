@@ -14,7 +14,7 @@
                 <router-link to="/event" class="text-dark">Event</router-link>
               </li>
               <li class="breadcrumb-item active" aria-current="page">
-                Event Order
+                Add Event
               </li>
             </ol>
           </nav>
@@ -39,11 +39,11 @@
           </h4>
           <form class="mt-4" v-on:submit.prevent>
             <div class="form-group">
-              <label for="jumlah_pemesanan"> Jumlah Pesan </label>
+              <label for="prioritas"> Prioritas Event </label>
               <input
                 type="number"
                 class="form-control"
-                v-model="pesan.jumlah_pemesanan"
+                v-model="pesan.prioritas"
               />
             </div>
             <div class="form-group">
@@ -51,11 +51,11 @@
               <textarea
                 v-model="pesan.keterangan"
                 class="form-control"
-                placeholder="Keterangan seperti : pedas, tambah nasi dll"
+                placeholder="Keterangan seperti : hadir, telat, tidak bisa hadir dll"
               ></textarea>
             </div>
             <button type="submit" class="btn btn-success" @click="pemesanan">
-              <b-icon-cart></b-icon-cart>Pesan
+              <b-icon-plus></b-icon-plus>Tambah
             </button>
           </form>
         </div>
@@ -86,9 +86,9 @@ export default {
     pemesanan() {
         this.pesan.event = this.event;
         axios
-        .post("http://localhost:3000/keranjangs", this.pesan)
+        .post("http://localhost:3000/disimpan", this.pesan)
         .then(() => {
-            this.$router.push({ path: "/keranjang"})
+            this.$router.push({ path: "/disimpan"})
             console.log("Berhasil");
         })
         .catch((err) => console.log(err))

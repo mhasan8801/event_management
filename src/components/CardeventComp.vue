@@ -9,7 +9,7 @@
       <h5 class="card-title">{{ event.nama }}</h5>
       <p class="card-text">Pelaksanaan : Hari {{ event.hari }}</p>
       <router-link class="btn btn-success" :to="'/event/' + event.id"
-        ><b-icon-cart></b-icon-cart> Pesan</router-link
+        ><b-icon-check></b-icon-check> Pilih Event</router-link
       >
     </div>
   </div>
