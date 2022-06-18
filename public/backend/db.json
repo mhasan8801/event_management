@@ -1,0 +1,143 @@
+{
+  "best-events": [
+    {
+      "id": 1,
+      "kode": "E-01",
+      "nama": "Webinar Desain",
+      "hari": "Selasa",
+      "is_free": true,
+      "gambar": "webinar.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "E-02",
+      "nama": "Workshop Kepenulisan",
+      "hari": "Rabu",
+      "is_free": false,
+      "gambar": "workshop.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "E-03",
+      "nama": "Pelatihan Jaringan",
+      "hari": "Rabu",
+      "is_free": false,
+      "gambar": "pelatihan.jpg"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "kode": "E-01",
+      "nama": "Ramadan Kilat",
+      "hari": "Jumat",
+      "is_free": true,
+      "gambar": "ramadan.jpg"
+    },
+    {
+      "id": 2,
+      "kode": "E-02",
+      "nama": "Talkshow Series",
+      "hari": "Minggu",
+      "is_free": false,
+      "gambar": "talkshow.jpg"
+    },
+    {
+      "id": 3,
+      "kode": "E-03",
+      "nama": "Kajian Ilmiah",
+      "hari": "Selasa",
+      "is_free": true,
+      "gambar": "kajian.jpg"
+    },
+    {
+      "id": 4,
+      "kode": "E-04",
+      "nama": "Pekan Olahraga",
+      "hari": "Senin",
+      "is_free": true,
+      "gambar": "pekan.jpg"
+    },
+    {
+      "id": 5,
+      "kode": "E-05",
+      "nama": "Seminar Pancasila",
+      "hari": "Kamis",
+      "is_free": false,
+      "gambar": "seminar.jpg"
+    },
+    {
+      "id": 6,
+      "kode": "E-06",
+      "nama": "Workshop Petang",
+      "hari": "Sabtu",
+      "is_free": true,
+      "gambar": "petang.jpg"
+    },
+    {
+      "id": 7,
+      "kode": "E-07",
+      "nama": "Pelatihan Kuda",
+      "hari": "Minggu",
+      "is_free": true,
+      "gambar": "kuda.jpg"
+    },
+    {
+      "id": 8,
+      "kode": "E-08",
+      "nama": "Webinar Teknologi",
+      "hari": "Jumat",
+      "is_free": false,
+      "gambar": "teknologi.jpg"
+    },
+    {
+      "id": 9,
+      "kode": "E-09",
+      "nama": "Bincang Prestasi",
+      "hari": "Rabu",
+      "is_free": true,
+      "gambar": "bincang.jpg"
+    }
+  ],
+  "disimpan": [
+    {
+      "prioritas": "2",
+      "keterangan": "Y",
+      "event": {
+        "id": 3,
+        "kode": "E-03",
+        "nama": "Kajian Ilmiah",
+        "hari": "Selasa",
+        "is_free": true,
+        "gambar": "kajian.jpg"
+      },
+      "id": 1
+    },
+    {
+      "prioritas": "1",
+      "keterangan": "www",
+      "event": {
+        "id": 3,
+        "kode": "E-03",
+        "nama": "Kajian Ilmiah",
+        "hari": "Selasa",
+        "is_free": true,
+        "gambar": "kajian.jpg"
+      },
+      "id": 2
+    },
+    {
+      "prioritas": "1",
+      "keterangan": "w",
+      "event": {
+        "id": 5,
+        "kode": "E-05",
+        "nama": "Seminar Pancasila",
+        "hari": "Kamis",
+        "is_free": false,
+        "gambar": "seminar.jpg"
+      },
+      "id": 3
+    }
+  ]
+}
